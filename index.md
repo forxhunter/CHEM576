@@ -2,21 +2,33 @@
 
 This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
 
-* TOC
-{:toc}
+### **Course Schedule**
 
+* **Lecture Time** : 1:00 PM - 1:50 PM
+* **Days** : Monday, Wednesday, and Friday (MWF)
+* **Location** : **162 Noyes Laboratory**
+* **Instructors** : Prof. Z. Luthey-Schulten, T. Wu
+* **CRN** : 63281
+* **Term** : 01/21/25 - 05/07/25
 
 ## Contents
+
+* TOC
+  {:toc}
+
+### [Week1](./subsections/week1.md)
 
 [Week1](./subsections/week1.md)  Web Resources & Databases for Proteins, Nucleic Acids, Genomes, Subcellular Pathways
 and Networks: Deep Learning Neural Networks (NN), Sequence/Structure Alignment
 Algorithms, Visualization (UNIPROT, SWISSPROT, PDB, SCOP, CATH, NCBI, KEGG,
 YEASTbook, BRENDA: Smith-Waterman, STAMP, VMD/MultiSeq tutorial, Biopython)
 
-Week 2: Evolutionary Concepts in Bioinformatics: Comparisons of sequences and structures and
+### [Week 2](./subsections/week2.md)
+
+[Week 2](./subsections/week2.md) : Evolutionary Concepts in Bioinformatics: Comparisons of sequences and structures and
 structure prediction (Phylogenetic Trees, MAFFT, Blast, AlphaFold3, Foldseek)
 
-Week 3: Force Fields for Biomolecules and an Introduction to Molecular Dynamics Simulations
+[Week 3: Force Fields for Biomolecules and an Introduction to Molecular Dynamics Simulations
 (Nobel Prize 2013, CHARMM, AMBER, NAMD2, MARTINI/GROMACS)
 Week 4: Analyzing Molecular Dynamics Simulations: Ligand Binding, Protein Interactions
 ( NAMD2 and MARTINI/GROMACS tutorials, radial distribution and correlation functions)
