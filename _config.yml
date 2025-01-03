@@ -49,5 +49,4 @@ page_width: 800px
 
 plugins:
   - jekyll-feed
-  - jekyll-readme-index
   - jemoji
