@@ -8,3 +8,12 @@ title: "Lecture Notes for CHEM 576 Computational Biology"
 description: "A comprehensive collection of course materials and lecture notes"
 favicon: "./assets/images/yeast_geometry.ico"
 show_downloads: false
+gitbook:
+  enable: true
+  toc: true
+  collapse_summary: true  # Collapse nested sections
+  sidebar:
+    - Week1:
+        - /subsections/week1.md
+    - Week2:
+        - /subsections/week2.md
