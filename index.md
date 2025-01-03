@@ -1,5 +1,9 @@
-# CHEM 576 Spring 2025
 
+
+---
+layout: page
+title: "Welcome to CHEM 576 Notes"
+---
 This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
 
 ### **Course Schedule**
@@ -58,20 +62,19 @@ Cell (Stochastic gene expression, Thornburg et al. Cell 2022, Gilbert et al. FCe
 Metabolism ( Reaction-Diffusion Master Equation (RDME), Lattice Microbes tutorials, Juypter
 python notebook, machine learning kinetic parameters)
 
-
 ### [Week 9](./subsections/week9.md)
 
 [Week 9](./subsections/week9.md): Atomistic Simulations of a Minimal Cell (NSF STC QCB tutorials MARTINI/GROMACS
 2024)
 
->  Contents provided by Jan Stevens 
+> Contents provided by Jan Stevens
 
 ### [Week 10](./subsections/week10.md)
 
 [Week 10](./subsections/week10.md): Machine Learning of Minimal Cell Trajectories and Selection of Class Computational
 Projects
 
->  Contents supported by Rong Wei in Shulei Wang's group
+> Contents supported by Rong Wei in Shulei Wang's group
 
 ### Weeks 11-14
 
