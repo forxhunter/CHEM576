@@ -13,8 +13,7 @@ This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
 
 ## Contents
 
-* TOC
-  {:toc}
+[toc]
 
 ### [Week1](./subsections/week1.md)
 
