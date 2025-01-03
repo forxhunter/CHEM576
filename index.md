@@ -1,10 +1,37 @@
-# Welcome to My GitHub Pages Site
+# CHEM 576 Spring 2025
 
-This is a simple website created using Markdown. Here's what you can do:
+This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
 
-- **Create** pages with Markdown.
-- **Style** them using Jekyll themes.
-- **Publish** a site for free!
+[toc]
 
-## Getting Started
-To learn more, visit [GitHub Pages documentation](https://docs.github.com/en/pages).
+## Contents
+
+[Week1](./subsections/week1.md)  Web Resources & Databases for Proteins, Nucleic Acids, Genomes, Subcellular Pathways
+and Networks: Deep Learning Neural Networks (NN), Sequence/Structure Alignment
+Algorithms, Visualization (UNIPROT, SWISSPROT, PDB, SCOP, CATH, NCBI, KEGG,
+YEASTbook, BRENDA: Smith-Waterman, STAMP, VMD/MultiSeq tutorial, Biopython)
+
+Week 2: Evolutionary Concepts in Bioinformatics: Comparisons of sequences and structures and
+structure prediction (Phylogenetic Trees, MAFFT, Blast, AlphaFold3, Foldseek)
+
+Week 3: Force Fields for Biomolecules and an Introduction to Molecular Dynamics Simulations
+(Nobel Prize 2013, CHARMM, AMBER, NAMD2, MARTINI/GROMACS)
+Week 4: Analyzing Molecular Dynamics Simulations: Ligand Binding, Protein Interactions
+( NAMD2 and MARTINI/GROMACS tutorials, radial distribution and correlation functions)
+
+Week 5: Simulations of Protein:RNA and Protein:DNA Complexes and their Assembly
+( Ribosome biogenesis, Protein/Nucleic Interactions, Network Analysis,)
+
+Week 6: Introduction to Systems Biology and Steady-State Analysis of Metabolic Networks
+(Breuer et al. elife 2019, CobraPy, ESCHER)
+
+Week 7: Subcellular Networks for DNA Replication, Transcription, and Translation in a Minimal
+Cell (Stochastic gene expression, Thornburg et al. Cell 2022, Gilbert et al. FCellDevBio 2023)
+Week 8: Whole Cell Kinetic Modeling and Simulations: Coupled Stochastic Gene Expression and
+Metabolism ( Reaction-Diffusion Master Equation (RDME), Lattice Microbes tutorials, Juypter
+python notebook, machine learning kinetic parameters)
+Week 9: Atomistic Simulations of a Minimal Cell (NSF STC QCB tutorials MARTINI/GROMACS
+2024)
+Week 10: Machine Learning of Minimal Cell Trajectories and Selection of Class Computational
+Projects
+Weeks 11-14: Presentations of Computational Projects
