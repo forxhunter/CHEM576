@@ -23,6 +23,8 @@ syntax_highlighter_style: colorful
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # collections
+exclude:
+  - README.md
 collections:
   pages:
     output: true
