@@ -2,7 +2,9 @@
 
 This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
 
-[toc]
+* TOC
+{:toc}
+
 
 ## Contents
 
