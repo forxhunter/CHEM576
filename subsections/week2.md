@@ -1,0 +1,169 @@
+### **Week 2: Evolutionary Concepts in Bioinformatics**
+
+In this week’s module, we delve into fundamental bioinformatics tools and concepts essential for understanding sequence and structure comparisons, as well as structure prediction. The primary goal is to learn how evolutionary relationships can be inferred from biological data using computational methods. Below is an overview of each tool and method covered in this week, along with their URLs and example usage templates.
+
+
+* TOC
+  {:toc}
+
+---
+
+### **1. Phylogenetic Trees**
+
+#### **Overview**
+
+A phylogenetic tree represents the evolutionary relationships among various biological species based on similarities and differences in their genetic or physical traits. These trees are constructed using sequence alignment data.
+
+#### **Common Tools for Phylogenetic Tree Construction**
+
+* **IQ-TREE** : Maximum likelihood-based tree building
+* **MEGA** : An integrated tool for evolutionary analysis
+* **FigTree** : A tool for visualizing phylogenetic trees
+
+#### **Basic Steps for Building a Phylogenetic Tree**
+
+1. Align sequences (using MAFFT or other alignment tools).
+2. Generate a distance matrix.
+3. Construct the phylogenetic tree.
+
+**Key Resources:**
+
+* [IQ-TREE Official Website](http://www.iqtree.org/)
+* [MEGA Official Website](https://www.megasoftware.net/)
+* [FigTree Official Website](http://tree.bio.ed.ac.uk/software/figtree/)
+
+**Example Command (IQ-TREE):**
+
+```bash
+iqtree -s alignment.fasta -m GTR+G -nt AUTO
+```
+
+**Explanation:**
+
+* `-s`: Input sequence alignment file.
+* `-m`: Substitution model (e.g., GTR+G).
+* `-nt AUTO`: Automatically detects the number of CPU cores to use.
+
+---
+
+### **2. Multiple Sequence Alignment (MAFFT)**
+
+#### **Overview**
+
+MAFFT (Multiple Alignment using Fast Fourier Transform) is a widely used tool for multiple sequence alignment (MSA) of nucleotide or protein sequences.
+
+#### **Key Features**
+
+* High-speed sequence alignment
+* Multiple algorithms for local and global alignments
+* Suitable for large datasets
+
+**Official Website:** [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+
+#### **Basic Command Line Usage:**
+
+```bash
+mafft --auto input.fasta > output.aln
+```
+
+**Explanation:**
+
+* `--auto`: Automatically selects the best alignment strategy based on input size.
+* `input.fasta`: Input FASTA file containing sequences to align.
+* `output.aln`: Output file containing the aligned sequences.
+
+---
+
+### **3. BLAST (Basic Local Alignment Search Tool)**
+
+#### **Overview**
+
+BLAST is a sequence similarity search tool used to compare nucleotide or protein sequences against databases. It helps identify homologous sequences and annotate unknown sequences.
+
+**Key Types of BLAST:**
+
+* **blastn** : Nucleotide vs. nucleotide database
+* **blastp** : Protein vs. protein database
+* **blastx** : Translated nucleotide vs. protein database
+
+**Official Website:** [BLAST NCBI](https://blast.ncbi.nlm.nih.gov/)
+
+#### **Basic Web Interface Use:**
+
+1. Visit the NCBI BLAST page.
+2. Paste the sequence of interest.
+3. Select the appropriate BLAST type (blastn, blastp, etc.).
+4. Choose a database (e.g., nr, SwissProt).
+5. Click "BLAST".
+
+**Command Line Example:**
+
+```bash
+blastp -query input.fasta -db nr -out results.txt -evalue 0.001 -num_threads 4
+```
+
+**Explanation:**
+
+* `-query`: Input sequence file.
+* `-db`: Database to search against (e.g., `nr` for non-redundant database).
+* `-out`: Output file for results.
+* `-evalue`: E-value cutoff for significance.
+* `-num_threads`: Number of CPU threads to use.
+
+---
+
+### **4. AlphaFold3 (Protein Structure Prediction)**
+
+#### **Overview**
+
+AlphaFold is a revolutionary AI-based system developed by DeepMind that predicts protein structures from amino acid sequences with high accuracy.
+
+#### **Key Features:**
+
+* Accurate 3D protein structure prediction.
+* Open-source version for local installation.
+* Provides confidence scores for predicted structures.
+
+**Official Repository:** [AlphaFold GitHub](https://github.com/deepmind/alphafold)
+
+#### **Basic Use (Local Installation with Docker):**
+
+1. Install Docker and download the AlphaFold image.
+2. Run AlphaFold with the following command:
+
+```bash
+docker run --rm --gpus all -v /path/to/data:/data alphafold -i input.fasta -o /output/directory
+```
+
+**Explanation:**
+
+* `-i`: Input FASTA file.
+* `-o`: Output directory for the predicted 3D structure.
+
+---
+
+### **5. Foldseek (Fast Structure Search)**
+
+#### **Overview**
+
+Foldseek is a fast and accurate tool for searching protein 3D structures against databases. It provides a structural analogy to sequence-based search tools like BLAST.
+
+#### **Key Features:**
+
+* Ultrafast comparison of protein folds.
+* Enables exploration of structure-function relationships.
+
+**Official Repository:** [Foldseek GitHub](https://github.com/steineggerlab/foldseek)
+
+#### **Basic Command Line Usage:**
+
+```bash
+foldseek easy-search input.pdb structure_db result.m8 tmp/
+```
+
+**Explanation:**
+
+* `input.pdb`: Input protein structure file in PDB format.
+* `structure_db`: Database of 3D structures to search against.
+* `result.m8`: Output file containing the search results.
+* `tmp/`: Temporary directory for intermediate files.
