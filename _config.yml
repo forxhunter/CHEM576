@@ -1,19 +1,44 @@
 remote_theme: sighingnow/jekyll-gitbook
-syntax_highlighter_style: colorful
+title: "Lecture Notes for CHEM 576 Computational Biology"
+description: "A comprehensive collection of course materials and lecture notes"
+favicon_path: /assets/images/yeast_geometry.ico
+show_downloads: false
 toc:
     enabled: true
     h_min: 1
     h_max: 3
-title: "Lecture Notes for CHEM 576 Computational Biology"
-description: "A comprehensive collection of course materials and lecture notes"
-favicon: "./assets/images/yeast_geometry.ico"
-show_downloads: false
-gitbook:
-  enable: true
-  toc: true
-  collapse_summary: true  # Collapse nested sections
-  sidebar:
-    - Week1:
-        - /subsections/week1.md
-    - Week2:
-        - /subsections/week2.md
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# collections
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+  
+ordered_collections:
+  - posts
+  - pages
+  - others
+
+page_width: 800px
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
