@@ -1,6 +1,9 @@
 # Week1 Contents
 
-[toc]
+
+
+* TOC
+  {:toc}
 
 ## 1. Web Resources and Databases
 
