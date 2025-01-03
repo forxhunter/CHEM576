@@ -1,0 +1,122 @@
+# **Week 6: Introduction to Systems Biology and Steady-State Analysis of Metabolic Networks**
+
+* TOC
+  {:toc}
+
+### **1. Systems Biology Overview**
+
+* **Systems biology** focuses on understanding how molecular components (genes, proteins, metabolites) interact to form complex biological systems.
+* **Key Concepts** :
+* **Metabolic Networks** : Pathways describing the transformation of substrates into products via enzymatic reactions.
+* **Steady-State Analysis** : Involves determining the flow of metabolites through these networks when the system is in equilibrium.
+
+### **2. Breuer et al. (eLife, 2019)**
+
+ **Paper URL** : [https://doi.org/10.7554/eLife.34598](https://doi.org/10.7554/eLife.34598)
+
+* **Title** : "Essential metabolism for a minimal cell."
+* **Key Findings** :
+* Developed a model of a minimal synthetic cell with only the essential metabolic pathways required for survival.
+* Used a constraint-based modeling approach to reconstruct the minimal genome-derived metabolic network.
+* Demonstrated that even in minimal cells, complex interactions exist between metabolism and gene expression.
+
+---
+
+### **3. Tools for Metabolic Network Analysis**
+
+#### **3.1 CobraPy (COBRA Toolbox in Python)**
+
+ **URL** : [https://cobrapy.readthedocs.io](https://cobrapy.readthedocs.io/)
+
+* **Description** : A Python package for constraint-based modeling of metabolic networks.
+* **Key Features** :
+* Supports **flux balance analysis (FBA)** for predicting reaction flux distributions.
+* Includes utilities for  **gene knockout simulations** ,  **essentiality tests** , and  **biomass flux calculations** .
+* **Example Usage** :
+
+```python
+import cobra
+model = cobra.io.read_sbml_model("ecoli_core_model.xml")
+solution = model.optimize()
+print(solution.fluxes)
+```
+
+#### **3.2 ESCHER**
+
+ **URL** : [https://escher.github.io](https://escher.github.io/)
+
+* **Purpose** : A web-based tool for visualizing metabolic pathways.
+* **Key Features** :
+* Interactive metabolic network visualizations.
+* Allows overlaying of flux values from FBA simulations.
+* Supports maps for various organisms (e.g.,  *E. coli* , yeast).
+* **Use Case** : Combine with CobraPy to visualize metabolic fluxes.
+
+---
+
+## **Week 8: Whole Cell Kinetic Modeling and Simulations**
+
+---
+
+### **1. Overview of Whole-Cell Modeling**
+
+Whole-cell modeling aims to simulate every process occurring inside a cell, including:
+
+* **Gene Expression** : Transcription and translation of genes into proteins.
+* **Metabolism** : Conversion of nutrients into energy and biomass.
+* **Coupling Mechanisms** : Interactions between gene expression, metabolic fluxes, and cellular growth.
+
+---
+
+### **2. Reaction-Diffusion Master Equation (RDME)**
+
+* **Purpose** : Models biochemical reactions in a spatially resolved system.
+* **Key Concepts** :
+* **Stochastic Reactions** : Random reaction events occur based on reaction propensities.
+* **Diffusion** : Molecules diffuse between compartments, influencing spatial gradients.
+
+---
+
+### **3. Lattice Microbes (LM)**
+
+ **URL** : [https://www.ks.uiuc.edu/Research/lm](https://www.ks.uiuc.edu/Research/lm)
+
+* **Purpose** : A GPU-accelerated software package for simulating stochastic reaction-diffusion systems.
+* **Key Features** :
+* Simulates RDME for large-scale cellular processes.
+* Optimized for parallel computation on GPUs.
+* Tracks molecular trajectories and reactions over time.
+* **Tutorial** : Official tutorials available at [Lattice Microbes Documentation](https://www.ks.uiuc.edu/Research/lm).
+
+---
+
+### **4. Jupyter Python Notebook**
+
+ **URL** : [https://jupyter.org](https://jupyter.org/)
+
+* **Purpose** : An interactive computing environment for writing and running Python scripts.
+* **Key Use Cases** :
+* Combine with Lattice Microbes for  **interactive simulations** .
+* Plot simulation results and analyze system kinetics.
+* **Example** :
+
+```python
+import matplotlib.pyplot as plt
+time = [0, 10, 20, 30]
+concentration = [0.5, 0.8, 1.0, 1.2]
+plt.plot(time, concentration)
+plt.xlabel("Time (s)")
+plt.ylabel("Concentration (mM)")
+plt.show()
+```
+
+---
+
+### **5. Machine Learning for Kinetic Parameter Estimation**
+
+* **Problem** : Kinetic parameters (e.g., reaction rates) are often unknown or difficult to measure experimentally.
+* **Solution** :
+* **Machine Learning (ML)** : Train models using experimental data to estimate unknown parameters.
+* Example approaches:
+  * **Neural Networks** : Predict rate constants based on known system behaviors.
+  * **Bayesian Inference** : Probabilistic estimation of parameter distributions.

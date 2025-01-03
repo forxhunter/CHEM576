@@ -1,0 +1,30 @@
+# **Week 7: Subcellular Networks for DNA Replication, Transcription, and Translation in a Minimal Cell**
+
+* TOC
+  {:toc}
+
+## **1. Overview of Subcellular Networks**
+
+Subcellular networks describe the **DNA replication, transcription, and translation machinery** in cells. Understanding these networks in a **minimal cell** (synthetic cell with the simplest genome) helps model the core processes of life.
+
+---
+
+## **2. Stochastic Gene Expression**
+
+* **Stochasticity** : Biological processes at the molecular level (e.g., transcription, translation) are subject to random fluctuations due to the low copy numbers of molecules.
+* **Key Concepts** :
+* **Bursting Transcription** : RNA production occurs in bursts rather than continuously.
+* **Noise in Gene Expression** : Variability in mRNA and protein levels due to stochastic processes.
+
+---
+
+## **3. Fundamental behaviors emerge from simulations of a living minimal cell**
+
+ **Paper URL** : [https://doi.org/10.1016/j.cell.2021.12.025
+](https://doi.org/10.1016/j.cell.2021.12.025)
+
+---
+
+## **4. Dynamics of chromosome organization in a minimal bacterial cell**
+
+ **Paper URL** : [https://doi.org/10.3389/fcell.2023.1214962](https://doi.org/10.3389/fcell.2023.1214962)
