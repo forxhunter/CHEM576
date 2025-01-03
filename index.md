@@ -1,5 +1,3 @@
-[Week 3](./subsections/week3.md)
-
 # CHEM 576 Spring 2025
 
 This is a lecture taught by Professor Zan Luthey-Schulten during Spring 2025.
