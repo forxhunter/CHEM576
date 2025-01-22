@@ -1,4 +1,3 @@
-# CHEM 576/BIOP 576/ CSE 576 - Computational Chemical Biology
 
 Welcome to the **CHEM 576: Computational Chemical Biology** on Spring 2025! This course offers a comprehensive, hands-on introduction to computational techniques for simulating biological molecules and performing bioinformatics analyses.
 
