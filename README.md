@@ -30,11 +30,12 @@ To enroll in this course, students should have completed:
 * **Statistical thermodynamics** (or consent of the instructor)
 
 ## Office hours
-ZLS on Monday 5:00 pm CLSL A552, 
+ZLS on Monday 5:00 pm CLSL A552
+
 Tianyu Wu on Thursday 4:00 pm-5:00 pm RAL 44
 
 ## Homework due
-Every riday nights. 
+Every riday nights after the homework is released. Homework will be published in canvas.  
 
 ## Contents
 
