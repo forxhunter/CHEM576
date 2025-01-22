@@ -1,7 +1,10 @@
 
-Welcome to the **CHEM 576: Computational Chemical Biology** on Spring 2025! This course offers a comprehensive, hands-on introduction to computational techniques for simulating biological molecules and performing bioinformatics analyses.
+Welcome to the **CHEM 576: Computational Chemical Biology** on Spring 2025! 
+This note serves the purpose to help students get familiar with computational tools mentioned in the syllabus and website.
 
-+ instructor: Zan Luthey-Schulten  📫email: zan at illinois.edu
+**THIS NOTE is unofficial and written by TA.**
+
++ instructor: Zan Luthey-Schulten
 + TA: Tianyu Wu  📫email: tianyu16 at illinois.edu
 
 ## 📚 **Course Description**
@@ -17,13 +20,6 @@ CHEM 576 introduces fundamental computational methods applied to chemical biolog
 * **CRN** : 63281
 * **Term** : 01/21/25 - 05/07/25
 
-### **Key Topics:**
-
-* Principles of Molecular Modeling
-* Molecular Dynamics and Monte Carlo Simulations
-* Structure Prediction in the Context of Structural and Functional Genomics
-* Assembly of Integrated Biological Systems
-
 ### **Credit Hours:** 4 Graduate Hours
 
 ## 🧑‍🔬 **Prerequisites**
@@ -36,8 +32,9 @@ To enroll in this course, students should have completed:
 ## Office hours
 ZLS on Monday 5:00 pm CLSL A552, 
 Tianyu Wu on Thursday 4:00 pm-5:00 pm RAL 44
+
 ## Homework due
-Friday nights. 
+Every riday nights. 
 
 ## Contents
 
