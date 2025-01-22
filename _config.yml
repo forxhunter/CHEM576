@@ -8,8 +8,8 @@ toc:
     h_min: 1
     h_max: 2
 # url settings
-url:              'https://forxhunter.github.io/CHEM576'
-baseurl:          '/jekyll/2025-01-01-index.html'
+url:              'https://forxhunter.github.io'
+baseurl:          '/CHEM576'
 # markdown render engine.
 markdown:         kramdown
 kramdown:
