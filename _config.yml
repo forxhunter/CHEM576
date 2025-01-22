@@ -34,7 +34,6 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 # collections
 exclude:
   - _drafts
-  - README.md
 collections:
   pages:
     output: true
