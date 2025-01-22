@@ -34,6 +34,7 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 # collections
 exclude:
   - _drafts
+  - _posts/2025-1-1-index.md
 collections:
   pages:
     output: true
