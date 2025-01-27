@@ -35,16 +35,18 @@ ZLS on Monday 5:00 pm CLSL A552
 Tianyu Wu on Thursday 4:00 pm-5:00 pm RAL 44
 
 ## Homework due
-Every riday nights after the homework is released. Homework will be published in canvas.  
+Every next Friday afternoon 1:00 PM after the homework is released. Homework will be published in canvas.  
+
+[Homework 1](https://canvas.illinois.edu/courses/55672/assignments/1227842?module_item_id=4110948): due on 2025-01-31 1:00 PM 
+
+
 
 ## Contents
 
 ### [Week1](https://forxhunter.github.io/CHEM576/jekyll/2025-01-01-week1.html)
 
 [Week1](https://forxhunter.github.io/CHEM576/jekyll/2025-01-01-week1.html)  Web Resources & Databases for Proteins, Nucleic Acids, Genomes, Subcellular Pathways
-and Networks: Deep Learning Neural Networks (NN), Sequence/Structure Alignment
-Algorithms, Visualization (UNIPROT, SWISSPROT, PDB, SCOP, CATH, NCBI, KEGG,
-YEASTbook, BRENDA: Smith-Waterman, STAMP, VMD/MultiSeq tutorial, Biopython)
+and Networks: Deep Learning Neural Networks (NN), Sequence/Structure Alignment Algorithms, Visualization (UNIPROT, SWISSPROT, PDB, SCOP, CATH, NCBI, KEGG,YEASTbook, BRENDA: Smith-Waterman, STAMP, VMD/MultiSeq tutorial, Biopython, Biocyc Pathway Tools)
 
 ### [Week 2](https://forxhunter.github.io/CHEM576/jekyll/2025-01-02-week2.html)
 
