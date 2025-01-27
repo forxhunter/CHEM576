@@ -15,7 +15,7 @@ CHEM 576 introduces fundamental computational methods applied to chemical biolog
 
 * **Lecture Time** : 1:00 PM - 1:50 PM
 * **Days** : Monday, Wednesday, and Friday (MWF)
-* **Location** : **162 Noyes Laboratory**
+* **Location** : **164 Noyes Laboratory**
 * **Instructors** : Prof. Z. Luthey-Schulten, T. Wu
 * **CRN** : 63281
 * **Term** : 01/21/25 - 05/07/25
