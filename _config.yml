@@ -37,8 +37,8 @@ exclude:
   - _posts/2025-1-1-index.md
   # - _posts/2025-1-2-week2.md
   # - _posts/2025-1-2-week3.md
-  - _posts/2025-1-2-week4.md
-  - _posts/2025-1-2-week5.md
+  # - _posts/2025-1-2-week4.md
+  # - _posts/2025-1-2-week5.md
   - _posts/2025-1-2-week6.md
   - _posts/2025-1-2-week7.md
   - _posts/2025-1-2-week8.md
